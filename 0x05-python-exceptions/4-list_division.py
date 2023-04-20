@@ -8,7 +8,7 @@ def list_division(my_list_1, my_list_2, list_length):
         except TypeError:
             result = 0
             print("wrong type")
-        except ZeroDivionError:
+        except ZeroDivisionError:
             result = 0
             print("Division by 0")
         except IndexError:
